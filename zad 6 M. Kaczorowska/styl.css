@@ -1,0 +1,41 @@
+.srodek{
+    display: flex;
+}
+
+.baner{
+    background-color: #0B873D;
+    color: white;
+    font-size: 150%;
+    text-align: center;
+}
+
+.panel-lewy{
+    background-color: #8CE1AE;
+    width: 40%;
+    height: 600px;
+}
+
+.panel-środkowy{
+    background-color: #5CCB89;
+    width:40%;
+    height: 600px;
+}
+
+.panel-prawy{
+    background-color: #1DA956;
+    width: 20%;
+    height: 600px;
+}
+
+li{
+    margin: 20px;
+    list-style-image: url(auto.png);
+}
+
+.baza{
+    color: brown;
+}
+
+.baza:visited{
+    color: red;
+}

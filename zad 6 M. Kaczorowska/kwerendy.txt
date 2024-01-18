@@ -1,0 +1,10 @@
+zapytanie 1: select `id` , `model` , `kolor` from `samochody`where `marka` = 'Toyota' AND `rocznik` = '2014';
+
+
+zapytanie 2: SELECT `id` , `marka` , `model` , `rocznik` FROM `samochody`;
+
+
+zapytane 3: SELECT `samochody`.`id` , `model` , `telefon` from `samochody` INNER JOIN `zamowienia` on `samochody`.`id` = `zamowienia`.`Samochody_id`;
+
+
+wykonywane na przeglądarce google chrome
